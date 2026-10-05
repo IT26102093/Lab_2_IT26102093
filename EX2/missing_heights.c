@@ -18,7 +18,7 @@ int main (){
     int height1  = missing / 2;          
     int height2 = missing - height1;
 
-    printf("The missing heights are %d cm and %d cm\n", low, high);
+    printf("The missing heights are %d cm and %d cm\n", height1, height2);
 
     return 0;
 }
