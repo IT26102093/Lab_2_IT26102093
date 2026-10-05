@@ -15,13 +15,10 @@ int main (){
     int total = (avg * 5);
     int missing = total - (h1+h2+h3);
 
-    int low  = missing / 2;          
-    int high = missing - low;
+    int height1  = missing / 2;          
+    int height2 = missing - height1;
 
     printf("The missing heights are %d cm and %d cm\n", low, high);
-
-    return 0;
-
 
     return 0;
 }
